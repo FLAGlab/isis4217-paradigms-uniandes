@@ -1,4 +1,5 @@
 %% Slide 8
+
 local X in 
     X = 5
     {Show X}
@@ -15,10 +16,12 @@ local X Y Sum Division in
     end 
     {Show {Sum {Division Y 2} X}}
 end
+
 %%-----------------------------------------
 
 
 %%Slide 9
+
 declare 
 fun {Fact N Accum}
     case N of 
@@ -27,19 +30,25 @@ fun {Fact N Accum}
     end
 end
 {Show {Fact 5 1}}
+
 %%-----------------------------------------
 
 
 %% Slide 26
+
 declare X
 X = 8
 X = 3
+
 %%-----------------------------------------
 
 
 %% Slide 27
+
 declare C X
 {NewCell 5 C}
 {Exchange C 5 3}
 {Show X}
 {Show {Access C}}
+
+%%-----------------------------------------
