@@ -1,4 +1,4 @@
-%% Slide 42
+%% Slide 44
 
 local A Sum X L in 
     A = {NewArray 1 10 &a}
