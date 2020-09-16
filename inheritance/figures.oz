@@ -32,3 +32,42 @@ class Circle from Figure
         {Show @color}
     end
 end
+
+%--------------------------------------------
+
+%% Slide 66
+
+declare 
+class Figure
+    attr color
+    meth init(C)
+        color := C
+    end
+    meth getColor
+        {Show @color}
+    end
+    meth area
+       getColor
+    end
+end
+
+class CompoundFigure
+    attr figureList
+
+    meth init(L)
+        figureList := L
+    end
+
+    meth draw
+        for F in figureList do
+            {F draw}
+        end
+    end
+end
+
+local F1 F2 C in
+
+end
+
+%--------------------------------------------
+
