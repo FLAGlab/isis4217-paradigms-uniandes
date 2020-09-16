@@ -6,14 +6,13 @@ class Counter
     meth init(Value)
         val := Value
     end
-    meth get
-        {Show @val}
+    meth get(R)
+        R = @val
     end
     meth increment(Value)
         val := @val + Value
     end
 end
-
 
 %% --------------------------------------------
 

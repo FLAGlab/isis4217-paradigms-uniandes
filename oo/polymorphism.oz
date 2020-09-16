@@ -59,4 +59,5 @@ local F in
     F = {New Figure init()}
     {F draw}
 end
+
 %% --------------------------------------------
