@@ -30,4 +30,35 @@ end
 
 %----------------------------------------------
 
+%% Slide 37
+
+local X Y in
+    fun {$ X Y}
+        {fun {$ X} ~X end 
+        {fun {$ X Y} 
+            if X > Y then X
+            else Y end
+        end 
+        {fun {$ X} ~X end X} 
+        {fun {$ X} ~X end Y}}}
+    end
+end
+
+%% Slide 40
+
+local Minus Max X Y in 
+    Max = fun {$ X Y} 
+        if X > Y then X
+        else Y end
+        end 
+    Minus = fun {$ X} ~X end 
+
+    fun {$ X Y}
+        {Minus {Max {Minus X} {Minus Y}}}
+    end
+end
+
+%----------------------------------------------
+
+
 
