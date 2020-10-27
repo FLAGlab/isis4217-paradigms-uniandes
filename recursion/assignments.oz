@@ -34,3 +34,7 @@ end
 
 %% 7. Implement the delete function in a search tree
 
+%% 8. Implement DFS for trees
+
+%% 9. Implement BFS for trees
+
