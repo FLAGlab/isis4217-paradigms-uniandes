@@ -3,7 +3,6 @@ parent(homer, hugo).
 parent(homer, liza).
 parent(homer, maggie).
 parent(abe, homer). 
-parent(abe,homer).
 parent(clancy, marge).
 
 parent(marge, bart).
