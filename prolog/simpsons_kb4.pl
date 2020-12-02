@@ -22,3 +22,4 @@ female(maggie).
 female(marge).
 
 grandfather(X,Z) :- parent(X,Y), parent(Y,Z), male(X).
+grandparent(X,Z) :- parent(X,Y), parent(Y,Z).
