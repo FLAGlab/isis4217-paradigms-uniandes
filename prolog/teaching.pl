@@ -5,5 +5,6 @@ teaches(silvia, agents).
 
 studies(alice, languages).
 studies(bob, languages).
+studies(bob, programming).
 studies(carl, concurrency).
 studies(dan, agents).
