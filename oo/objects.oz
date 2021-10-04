@@ -14,6 +14,13 @@ class Counter
     end
 end
 
+local C R in
+    C = {New Counter init(1)}
+    {C increment(2)}
+    {C get(R)}
+    {Show R}
+end
+
 %% --------------------------------------------
 
 
