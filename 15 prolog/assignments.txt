@@ -1,0 +1,33 @@
+1. Write a program that assigns 2 to a variable X and prints it out.
+
+2. Query the simpsons knowledge base to see who is who’s father
+
+3. Find out if marge has a male son?
+
+4. Find out all female daughters of homer?
+
+5. Define a grandfather
+
+6. Based on the parent predicate, define the following rules:
+    6a. A grandparent (the parent of a parent)
+    6b. A son
+    6c. A daughters
+
+7. Using the simpsons knowledge base    
+    7a. Find out if marge has a male son?
+    7b. Find out all female daughters of homer?
+
+8. Using the Harry Potter knowledge base, find all wizards?
+
+9. add two numbers
+
+10. implement isList
+
+11. implement memberchk
+
+12. Implement the factorial function
+
+13. implement the minimum function
+
+14. Calculate the minimum element of a list
+

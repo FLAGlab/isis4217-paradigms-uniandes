@@ -1,0 +1,5 @@
+fun {Square X}
+    X * X
+end
+
+{Square {Square 3}}
