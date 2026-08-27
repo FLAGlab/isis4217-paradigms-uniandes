@@ -1,18 +1,24 @@
-local A Obj R in
-class A 
-    attr a
+local AnObject Obj Res FuncRes in
+class AnObject 
+    attr attribute
 
     meth init(Value)
-        a := Value
+        attribute := Value
     end
 
-    meth foo(B ?R)
-        R = @a
+    meth getter(Param ?R) % Regular method (works as a procedure)
+        R = @attribute
+    end
+
+    meth cleanGetter($) %Functional method (returns as a function)
+        @attribute
     end
 end
 
 
-    Obj = {New A init(2)}
-    {Obj foo(5 R)}
-    {Show R}
+    Obj = {New AnObject init(2)}
+    {Obj getter(5 Res)}
+    {Show Res}
+    FuncRes = {Obj cleanGetter($)}
+    {Show FuncRes}
 end
